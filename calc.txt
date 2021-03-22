@@ -1,0 +1,45 @@
+
+num1 = float(input("enter the first number"))
+op = input("enter the operator")
+num2 = float(input("enter the second number"))
+if op == "+":
+    print("sum is",num1 + num2)
+elif op == "-":
+    print("Difference is ",num1 - num2)
+elif op == "*":
+    print("Product is ",num1 * num2)
+elif op == "/":
+    print("quotient is",num1 / num2)
+else:
+    print("enter a valid operator")
+    
+"""
+def add(x,y):
+    return x+y
+def subtract(x,y):
+    return x-y
+def multiply(x,y):
+    return x*y
+def divide(x,y):
+    return x/y
+print("1.Add")
+print("2.subtract")
+print("3.multiply")
+print("4.divide")
+while True:
+    c = input("enter the choice")
+    if c in ('1','2','3','4'):
+        n1 = int(input("enter the first  number"))
+        n2 = int(input("enter the second number"))
+        if c=='1':
+            print("sum",add(n1,n2))
+        elif c=='2':
+            print("Difference",subtract(n1,n2))
+        elif c=='3':
+            print("Product",multiply(n1,n2))
+        elif c=='4':
+            print("quotient",divide(n1,n2))
+        break
+    else:
+        print("invalid")
+"""
